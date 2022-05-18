@@ -1,7 +1,7 @@
 /**
- * highcharts-ng
+ * @simplifield/highcharts-ng
  * @version v1.3.0 - 2022-05-18
- * @link https://github.com/pablojim/highcharts-ng
+ * @link https://github.com/simplifield/highcharts-ng
  * @author Barry Fitzgerald <>
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
