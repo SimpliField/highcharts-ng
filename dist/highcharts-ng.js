@@ -1,6 +1,6 @@
 /**
  * highcharts-ng
- * @version v1.2.2-dev - 2018-05-14
+ * @version v1.3.0 - 2022-05-18
  * @link https://github.com/pablojim/highcharts-ng
  * @author Barry Fitzgerald <>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -21,6 +21,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
     module.exports === 'highcharts-ng'
   ) {
         Highcharts = require('highcharts');
+        require('highcharts/modules/exporting')(Highcharts);
+        require('highcharts/modules/offline-exporting')(Highcharts);
   }
 
 

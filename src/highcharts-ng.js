@@ -13,6 +13,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
     module.exports === 'highcharts-ng'
   ) {
         Highcharts = require('highcharts');
+        require('highcharts/modules/exporting')(Highcharts);
+        require('highcharts/modules/offline-exporting')(Highcharts);
   }
 
 
