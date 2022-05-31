@@ -1,6 +1,6 @@
 /**
  * @simplifield/highcharts-ng
- * @version v1.3.0 - 2022-05-18
+ * @version v1.4.0 - 2022-05-31
  * @link https://github.com/simplifield/highcharts-ng
  * @author Barry Fitzgerald <>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -23,6 +23,7 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
         Highcharts = require('highcharts');
         require('highcharts/modules/exporting')(Highcharts);
         require('highcharts/modules/offline-exporting')(Highcharts);
+        require('highcharts/modules/export-data')(Highcharts);
   }
 
 
