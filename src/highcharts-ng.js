@@ -16,7 +16,6 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
         require('highcharts/modules/exporting')(Highcharts);
         require('highcharts/modules/offline-exporting')(Highcharts);
         require('highcharts/modules/export-data')(Highcharts);
-        require('highcharts/modules/annotations')(Highcharts);
   }
 
 
